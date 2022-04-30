@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grape+Nuts&family=Oswald:wght@400;700&family=Permanent+Marker&family=Poppins:ital,wght@0,300;0,400;0,800;0,900;1,400;1,500&family=Raleway:wght@600&family=Square+Peg&display=swap');
+
+body{
+    background-color: rgb(243, 228, 247);
+    color:rgb(61, 8, 83);
+    font-family: Poppins;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 10px;
+    margin-left: -20px;
+    background-color: rgb(61, 8, 83);
+    border-radius: 0px 0px 1px 1px;
+    position: fixed;
+    z-index: 2;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 15px;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+}
+
+a{
+    color: rgb(243, 228, 247);  
+}
+
+a:hover{
+    color: rgb(214, 134, 230);
+    transition: 0.3s all;
+    transform: 2ms ease-in;
+    position: relative; 
+}
+
+h1{
+    font-weight: 1500;
+]
+
+h2{
+    color: rgb(48, 3, 248);
+    font-size: 40px;
+    line-height: 50px;
+    font-family: Raleway;
+    
+}
+
+.abertura{
+    color: rgb(222, 224, 245); 
+    font-size:  ;
+}
+
+.text{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#chamada{
+    font-size: 40px;
+    line-height: 50px;
+    font-family: Raleway;
+    color: rgb(247, 26, 147); 
+}
+
+
+
+

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grape+Nuts&family=Oswald:wght@400;700&family=Permanent+Marker&family=Poppins:ital,wght@0,300;0,400;0,800;0,900;1,400;1,500&family=Raleway:wght@600&family=Square+Peg&display=swap');
+
+body{
+    background-color: rgb(29, 14, 31);
+    color:aliceblue;
+    font-family: Poppins;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 15px;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+}
+
+a{
+    color: white;  
+}
+
+a:hover{
+    color: rgb(139, 196, 235);
+    transition: 0.3s all;
+    transform: 2ms ease-in;
+    position: relative; 
+}
+
+h1{
+    font-weight: 1500;
+}
+
+h2{
+    color: rgb(139, 196, 235);
+    font-size: 50px;
+    line-height: 50px;
+    font-family: Square Peg;
+}
+
