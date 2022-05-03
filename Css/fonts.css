@@ -1,0 +1,67 @@
+@font-face {
+    font-family: BebasNeue;
+    src: url('../Fonts/Bebas_Neue/BebasNeue-Regular.ttf');
+}
+
+@font-face {
+    font-family: GrapeNuts;
+    src: url(../Fonts/Grape_Nuts/GrapeNuts-Regular.ttf);
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(../Fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: PermanentMarker;
+    src: url(../Fonts/Permanent_Marker/PermanentMarker-Regular.ttf);
+}
+
+@font-face {
+    font-family:Poppinsblack;
+    src: url(../Fonts/Poppins/Poppins-Black.ttf);
+}
+
+@font-face {
+    font-family:Poppinssemibold;
+    src: url(../Fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family:Poppinsblackitalic;
+    src: url(../Fonts/Poppins/Poppins-BlackItalic.ttf)
+}
+@font-face {
+    font-family:Poppinsbold;
+src: url(../FontsPoppins/Poppins-Bold.ttf)
+}
+
+@font-face {
+    font-family:Poppinsextralight;
+    src: url(../Fonts/Poppins/Poppins-ExtraLight.ttf)
+}
+
+@font-face {
+    font-family:Poppinsthin;
+    src: url(../Fonts/Poppins/Poppins-Thin.ttf)
+}
+
+@font-face {
+    font-family: PoppinsRegular;
+    src: url(../Fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Ralewayitalic;
+    src: url(../Fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Raleway;
+    src: url(../Fonts/Raleway/Raleway-VariableFont_wght.ttf)    
+}
+
+@font-face {
+    font-family: SquarePeg;
+    src: url(../Fonts/Square_Peg/SquarePeg-Regular.ttf);
+}

@@ -1,0 +1,190 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grape+Nuts&family=Oswald:wght@400;700&family=Permanent+Marker&family=Poppins:ital,wght@0,300;0,400;0,800;0,900;1,400;1,500&family=Raleway:wght@600&family=Square+Peg&display=swap');
+*/
+body{
+    background-color: #ffffff;
+    color:rgb(40, 5, 41);
+    font-family: Poppins;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+a{
+    color: #45094b;
+    font-family: Raleway;
+}
+
+a:hover{
+    color: rgb(139, 196, 235);
+    transition: 0.3s all;
+    transform: 2ms ease-in;
+    position: relative; 
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+#titulo{
+    flex-direction: column;
+    line-height: 30px;
+}
+h1{
+    font-size: 45px;
+    font-family: Poppinsblack;
+}
+
+span{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 30px;
+    color: rgb(168, 166, 5);
+    font-family: GrapeNuts;
+}
+
+
+h2{
+    font-size: 50px;
+    line-height: 40px;
+    font-family: Oswald;
+    color: rgb(224, 42, 164); 
+}
+
+h3{
+    font-size: 40px;
+    line-height: 30px;
+    font-family: Poppinssemibold;
+}
+
+h4{
+    font-size: 20px;
+    max-width: 500px;
+    line-height: 30px;
+    font-family: Poppinsextralight;
+}
+
+img{
+    width: 600px;
+}
+/*FOOTER*/
+
+footer{
+    background-color: #45094b;
+    line-: 50px;
+    padding-bottom: 40px;
+    padding-top: 5em;
+    border-top: 5px solid rgb(224, 42, 164);
+}
+
+footer img{
+    width: 80px;
+}
+
+footer h2{
+    color:rgb(17, 118, 206);
+    font-family: Poppinsblack;
+    font-size: 30px;
+}
+
+footer h3{
+    color: #c413d4;
+    font-family: Poppinssemibold;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer li{
+    list-style: none;
+}
+
+.footer-box{
+    width: 48%;
+    padding: 1%;
+    float: left;
+}
+
+footer .wrapper:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.company-footer{
+    width: 100%;
+}
+
+.company-footer h2 {
+    margin-top: 1px;
+}
+.company-footer h3 {
+    margin-bottom: 10px;
+    margin-top: 1px;
+}
+
+.footer-list li {
+    margin-bottom: 10px;
+}
+
+.footer-list a{
+    color: rgb(0, 0, 0);
+    font-family: Raleway;
+}
+
+.footer-list a:hover{
+    color: rgb(224, 42, 164);
+    transition: 0.3s all;
+    transform: 2ms ease-in;
+    position: relative; 
+}
+
+.footer-list li:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.articles-footer{
+    width: 80%;
+}
+
+.footer-list
+
+footer form {
+    width: 88%;
+    min-width: 200px;
+    border-radius: 5px; 
+    color: #000000;
+
+}
+footer input{
+    min-width: 300px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid rgb(167, 24, 155);
+    margin: 10px;  
+    padding: 5px; 
+}
+textarea
+
