@@ -1,11 +1,18 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grape+Nuts&family=Oswald:wght@400;700&family=Permanent+Marker&family=Poppins:ital,wght@0,300;0,400;0,800;0,900;1,400;1,500&family=Raleway:wght@600&family=Square+Peg&display=swap');
 */
+
+/*cores do logo: 
+#F31463
+#87165E
+#55CCE6
+#F7E61D
+#201358
+*/
+
 body{
-    color:rgb(0, 0, 0);
+    color:rgb(0, 0, 0); /*cor da fonte da página*/
     font-family: Poppins;
     max-width: 1300px;
-
-
     margin: 0 auto;
     padding: 20px 20px;
 }
@@ -35,27 +42,27 @@ main{
 }
 
 .menu li a{
-    color:rgb(196, 35, 169);
+    color:#F31463; /*Menu*/
     font-family: Raleway;
     font-weight: 900; /*espessura da letra*/
     text-decoration: none; /*underline, risco em cima, tachado*/
-    padding:10px 30px; /*Distância*/
+    padding:10px 20px; /*Distância*/
     display:block;
     margin-bottom: 10px; /*Alt da margem*/
 }
 
 .menu li a:hover{
-    color:rgb(0, 0, 0);
-    background:rgba(198, 201, 19, 0.336)
-  
-    
+    color:#201358; /*Quando passa o mouse*/
+    transition: 0.3s all;
+    transform: 2ms ease-in;
+    position: relative; 
 }
 
 .menu li  ul{
     position:absolute;
     top: 80%;
     center: 1px;
-    background-color: none);
+    background-color: none;
     display:none;
 }
 
@@ -68,24 +75,10 @@ main{
     width: 60px;
 }
 
-
-/*a{
-    color: #45094b;
-    font-family: Raleway;
-}
-
-a:hover{
-    color: rgb(139, 196, 235);
-    transition: 0.3s all;
-    transform: 2ms ease-in;
-    position: relative; 
-}
-
-li {
+li{
     display: inline-block;
     margin: 20px;
 }
-*/
 
 #titulo{
     flex-direction: column;
@@ -94,28 +87,29 @@ li {
 h1{
     font-size: 45px;
     font-family: Poppinsblack;
+    color: #F31463;
 }
 
 span{
     font-size: 50px;
     font-weight: 600;
-    line-height: 35px;
-    color: rgb(47, 138, 150);
+    line-height: 55px;
+    color: rgb(7, 0, 0);
     font-family: SquarePeg;
 }
-
 
 h2{
     font-size: 50px;
     line-height: 40px;
     font-family: Oswald;
-    color: rgb(224, 42, 164); 
+    color: #F31463; 
 }
 
 h3{
     font-size: 40px;
     line-height: 30px;
     font-family: Poppinssemibold;
+    color: #55CCE6;
 }
 
 h4{
@@ -131,10 +125,10 @@ img{
 /*FOOTER*/
 
 footer{
-    background-color: #45094b;
-     padding-bottom: 40px;
+    background-color: #201358;
+    padding-bottom: 40px;
     padding-top: 5em;
-    border-top: 5px solid rgb(224, 42, 164);
+    border-top: 5px solid #F7E61D;
     position: relative;
     height: 100%;
     width: 100%; /*Largura do Rodapé*/
@@ -145,13 +139,13 @@ footer img{
 }
 
 footer h2{
-    color:rgb(17, 118, 206);
+    color:#F31463;
     font-family: Poppinsblack;
     font-size: 30px;
 }
 
 footer h3{
-    color: #c413d4;
+    color: #55CCE6;
     font-family: Poppinssemibold;
     font-size: 20px;
     font-weight: 400;
@@ -203,7 +197,7 @@ footer .wrapper:after{
 }
 
 .footer-list a:hover{
-    color: rgb(224, 42, 164);
+    color: #55CCE6;
     transition: 0.3s all;
     transform: 2ms ease-in;
     position: relative; 
@@ -230,6 +224,7 @@ footer form {
     display: flex;
     flex-direction: column;
     width: 88%;
+    color:#201358;
    /* min-width: 200px;
     border-radius: 5px; 
     color: #dbcf21;*/
@@ -238,8 +233,8 @@ footer form {
 footer form [type="submit"]{
     height: 50px;
     width: 50%;
-    background-color: rgb(132, 14, 201);
-    color: white;
+    background-color: #dbcf21;
+    color: #55CCE6;
     padding: 15px;
     font-weight: bold;
     border: none;
@@ -267,7 +262,7 @@ footer input{
 }
 
 .footer-bottom p{
-    color: rgb(196, 141, 141);
+    color: #F7E61D;
     font-weight: 1px;
     font-family: Poppinsblack;
     margin-top: 20px;
