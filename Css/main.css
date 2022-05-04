@@ -1,12 +1,13 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grape+Nuts&family=Oswald:wght@400;700&family=Permanent+Marker&family=Poppins:ital,wght@0,300;0,400;0,800;0,900;1,400;1,500&family=Raleway:wght@600&family=Square+Peg&display=swap');
 */
 body{
-    background-color: #ffffff;
-    color:rgb(40, 5, 41);
+    color:rgb(0, 0, 0);
     font-family: Poppins;
-    max-width: 1500px;
+    max-width: 1300px;
+
+
     margin: 0 auto;
-    padding: 50px;
+    padding: 20px 20px;
 }
 
 header{
@@ -21,7 +22,54 @@ main{
     flex-direction: row;
 }
 
-a{
+.menu{
+    list-style: none;
+    border: none;
+    float: left;
+}
+
+.menu li{
+    position: relative;
+    float: left;
+    border-right: none;
+}
+
+.menu li a{
+    color:rgb(196, 35, 169);
+    font-family: Raleway;
+    font-weight: 900; /*espessura da letra*/
+    text-decoration: none; /*underline, risco em cima, tachado*/
+    padding:10px 30px; /*Distância*/
+    display:block;
+    margin-bottom: 10px; /*Alt da margem*/
+}
+
+.menu li a:hover{
+    color:rgb(0, 0, 0);
+    background:rgba(198, 201, 19, 0.336)
+  
+    
+}
+
+.menu li  ul{
+    position:absolute;
+    top: 80%;
+    center: 1px;
+    background-color: none);
+    display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{
+    display:block;
+}
+
+.menu li ul li{
+    display: block;
+    width: 60px;
+}
+
+
+/*a{
     color: #45094b;
     font-family: Raleway;
 }
@@ -37,6 +85,7 @@ li {
     display: inline-block;
     margin: 20px;
 }
+*/
 
 #titulo{
     flex-direction: column;
@@ -50,9 +99,9 @@ h1{
 span{
     font-size: 50px;
     font-weight: 600;
-    line-height: 30px;
-    color: rgb(168, 166, 5);
-    font-family: GrapeNuts;
+    line-height: 35px;
+    color: rgb(47, 138, 150);
+    font-family: SquarePeg;
 }
 
 
@@ -83,10 +132,12 @@ img{
 
 footer{
     background-color: #45094b;
-    line-: 50px;
-    padding-bottom: 40px;
+     padding-bottom: 40px;
     padding-top: 5em;
     border-top: 5px solid rgb(224, 42, 164);
+    position: relative;
+    height: 100%;
+    width: 100%; /*Largura do Rodapé*/
 }
 
 footer img{
@@ -168,23 +219,56 @@ footer .wrapper:after{
     width: 80%;
 }
 
-.footer-list
+.footer-list{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+
 
 footer form {
+    display: flex;
+    flex-direction: column;
     width: 88%;
-    min-width: 200px;
+   /* min-width: 200px;
     border-radius: 5px; 
-    color: #000000;
-
+    color: #dbcf21;*/
 }
+
+footer form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    border: none;
+}
+.footer-enviar:hover{
+    cursor: pointer;
+}
+
 footer input{
-    min-width: 300px;
-    display: block;
-    margin: 0 auto;
+    /*min-width: 300px;
+    display: block;*/
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border: none;
     border-radius: 20px;
-    border: 1px solid rgb(167, 24, 155);
-    margin: 10px;  
-    padding: 5px; 
+    font-size: 15px;
+    padding: 5px; */
 }
-textarea
 
+}
+
+.footer-bottom {
+    border-top: 1px solid #000;
+}
+
+.footer-bottom p{
+    color: rgb(196, 141, 141);
+    font-weight: 1px;
+    font-family: Poppinsblack;
+    margin-top: 20px;
+}

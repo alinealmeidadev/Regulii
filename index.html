@@ -29,16 +29,23 @@ As meta tags keywords é a apresentação do site no google-->
             </h2>
         </div>
           
-        <ul>
-            <a href="./index.html"><li>Início</li></a>  
-            <a href="./Html/sobre.html"><li>Sobre</li></a>    
-            <a href="./Html/abertura.html"><li>Abrindo empresa</li></a>                
-            <a href="./Html/estado.html"><li>Estado</li></a>
-            <a href="./Html/"><li>Prefeitura</li></a>            
-            <a href="./Html/mei.html"> <li>MEI</li></a>
-            <a href="./Html/outrostop.html"><li>Outros tópicos</li></a>              
-            <a href="./Html/contato.html"><li>Contato</li></a>
-        </ul>
+        
+        <nav>
+            <ul class="menu">
+                <li><a href="./index.html">Início</a></li>  
+                <li><a href="./Html/sobre.html">Sobre</a></li>    
+                    <li><a href="./Html/assuntos.html">Assuntos</a>    
+                        <ul>
+                            <li><a href="./Html/abertura.html">Abrindo empresa</a></li>                
+                            <li><a href="./Html/estado.html">Estado</a></li>
+                            <li><a href="./Html/">Prefeitura</a></li>           
+                            <li><a href="./Html/mei.html">MEI</a></li>
+                            <li><a href="./Html/outrostop.html">Outros tópicos</a></li>              
+                        </ul>
+                    </li>
+                <li><a href="./Html/contato.html">Contato</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -67,21 +74,28 @@ As meta tags keywords é a apresentação do site no google-->
             
             <div class="footer-box">
                 <h3>Se Inscreva para receber novidades</h3> 
-                <form action="/pagina-processa-dados-do-form" method="post">
+                <form>
+                    <input type="text" placeholder="Nome">
+                    <input type="email" placeholder="E-mail">
+                    <input type="submit" value="Enviar >">
+                     <!---action="/pagina-processa-dados-do-form" method="post">
                     <div>
                         <label for="nome">Nome:</label>
-                        <input type="text" id="nome" />
+                        <input type="text" id="nome"/>
                     </div>
                     <div>
                         <label for="email">E-mail:</label>
                         <input type="email" id="email" />
                     </div>
+                    <div class="footer-enviar"> 
+                        <input type="submit" value="Enviar >">
+                    </div>-->
                 </form>
             </div>
         </div>
         <div class="footer-bottom">
             <div class="wrapper">
-                Aline Almeida - 2022
+                <p>Copyright © 2022 Aline Almeida</p>
             </div>
         </div>
     </footer>
