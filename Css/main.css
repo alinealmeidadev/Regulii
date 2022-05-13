@@ -12,9 +12,14 @@
 #201358 -
 */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     color:#260A7B; /*cor da fonte da página*/
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     /*max-width: 1300px;*/
     margin: 30px 30px;
     padding: 0 0;
@@ -61,6 +66,9 @@ main{
     position: relative; 
 }
 
+
+
+
 .menu li  ul{
     position:absolute;
     top: 80%;
@@ -91,16 +99,20 @@ main{
     border-right: none;*/
 
 .submenu li a{
-    color:#1ec90f; /*Menu*/
+    color: #1ec90f;
     font-family: Raleway;
-    font-weight: 900; /*espessura da letra*/
-    text-decoration: none; /*underline, risco em cima, tachado*/
-    /*padding:10px 20px; /*Distância*/
-    display:block;
-    margin-bottom: 10px; /*Alt da margem*/
-    justify-content: leftspace-around;;
+    font-weight: 900;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-between;
+    background-color: #2473b7;
+    flex-direction: row-reverse;
+    align-content: flex-start;
+    align-items: center;
+    height: inherit;
 }
 
+colorcolor
 .submenu li a:hover{
     color:#e49d40; /*Quando passa o mouse*/
     transition: 0.3s all;

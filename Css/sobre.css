@@ -100,23 +100,7 @@ span{
 
 }
 
-h2{
-    font-size: 40px;
-    line-height: 30px;
-    font-family: Poppinssemibold;
-    color: #45bad4;
-}
 
-h3{
-    font-size: 20px;
-    max-width: 500px;
-    line-height: 30px;
-    font-family: Poppinsextralight;
-}
-
-img{
-    width: 550px;
-}
 /*FOOTER*/
 
 footer{
