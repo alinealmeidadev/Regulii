@@ -20,9 +20,10 @@
 body{
     color:#260A7B; /*cor da fonte da página*/
     font-family: "Poppins", sans-serif;
-    /*max-width: 1300px;*/
-    margin: 30px 30px;
+    max-width: 100%;
+    margin: 0 0;
     padding: 0 0;
+    
 }
 
 header{
@@ -30,6 +31,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 40px 40px;
 }
 
 main{
@@ -66,9 +68,6 @@ main{
     position: relative; 
 }
 
-
-
-
 .menu li  ul{
     position:absolute;
     top: 80%;
@@ -85,7 +84,6 @@ main{
     display: block;
     width: 60px;
 }
-
 
 .submenu{
     list-style: none;
@@ -157,6 +155,7 @@ span{
     line-height: 55px;
     color: #260A7B;
     font-family: SquarePeg;
+
 }
 
 h1{
@@ -164,20 +163,28 @@ h1{
     line-height: 40px;
     font-family: Oswald;
     color: #C618C0; 
+    margin-top: 50px;
+    margin-left: 60px;
 }
 
 h2{
     font-size: 40px;
-    line-height: 30px;
+    line-height: 40px;
     font-family: Poppinssemibold;
     color: #45bad4;
+    margin-top: 50px;
+    margin-left: 60px;
 }
 
 h3{
-    font-size: 20px;
-    max-width: 500px;
-    line-height: 30px;
+    font-size: 22px;
+    font-weight: 600px;
+    max-width: 600px;
+    line-height: 40px;
     font-family: Poppinsextralight;
+    margin-top: 60px;
+    text-align: justify;
+    margin-left: 60px;
 }
 
 img{
@@ -191,12 +198,12 @@ img{
 
 footer{
     background-color: #260A7B;
-    padding-bottom: 5px;
     padding-top: 2em;
     border-top: 4px solid #F7E61D;
     position: relative;
     height: 100%;
-    width: 100%; /*Largura do Rodapé*/
+    width: 100%;
+    margin: 0 0;
 }
 
 footer .colunas{
@@ -214,8 +221,16 @@ footer h2{
 footer h3{
     color: #55CCE6;
     font-family: Poppinssemibold;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 400;
+    margin-inline: 10px;
+}
+
+footer h4{
+    color: #55CCE6;
+    font-family: PoppinsRegular;
+    font-size: 18px;
+    font-weight: 300;
     margin-inline: 10px;
 }
 footer img{
@@ -235,9 +250,6 @@ footer li{
     list-style: none;
 }
 
-
-
-
 footer .wrapper:after{
     clear: both;
     content: "";
@@ -255,7 +267,6 @@ footer .wrapper:after{
     margin-inline: 8px;
     width: 50%;
 }
-
 
 .company-footer h2 {
     margin-top: 1px;
@@ -320,7 +331,8 @@ footer form [type="submit"]{
 
 footer input{
     margin-top: 20px;
-    height: 20px;
+    height: 30px;
+    width: 350px;
     border: 2px solid #F7E61D;
     border-radius: 20px;
     font-size: 16px;
@@ -335,7 +347,7 @@ footer input{
     color: #F7E61D;
     font-weight: 400px;
     font-family: PoppinsRegular;
-    margin-top: 15px;
-    padding: 1px;
     text-align: center; /*alinhamento do Copiright*/
 }
+
+
