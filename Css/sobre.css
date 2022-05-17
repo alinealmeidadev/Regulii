@@ -20,9 +20,10 @@
 body{
     color:#260A7B; /*cor da fonte da página*/
     font-family: "Poppins", sans-serif;
-    /*max-width: 1300px;*/
-    margin: 30px 30px;
+    max-width: 100%;
+    margin: 0 0;
     padding: 0 0;
+    
 }
 
 header{
@@ -30,6 +31,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 40px 40px;
 }
 
 main{
@@ -66,9 +68,6 @@ main{
     position: relative; 
 }
 
-
-
-
 .menu li  ul{
     position:absolute;
     top: 80%;
@@ -85,7 +84,6 @@ main{
     display: block;
     width: 60px;
 }
-
 
 .submenu{
     list-style: none;
@@ -159,6 +157,7 @@ span{
     font-family: SquarePeg;
 }
 
+
 /*CORPO DA PÁGINA*/
 .sobre{
     display: flex;
@@ -216,12 +215,12 @@ span{
 
 footer{
     background-color: #260A7B;
-    padding-bottom: px;
     padding-top: 2em;
     border-top: 4px solid #F7E61D;
     position: relative;
     height: 100%;
-    width: 100%; /*Largura do Rodapé*/
+    width: 100%;
+    margin: 0 0;
 }
 
 footer .colunas{
