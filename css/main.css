@@ -23,6 +23,25 @@ body{
     margin: 0 0;
     padding: 0 0;
 }
+
+
+#titulo{
+    flex-direction: column;
+    line-height: 30px;
+    font-size: 50px;
+    font-family: Poppinsblack;
+    color:#C618C0;
+    margin-top: 20px;
+}
+
+span{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 55px;
+    color: #260A7B;
+    font-family: SquarePeg;
+}
+
   a {text-decoration: none;}
   
   .barra-de-menu {
@@ -104,143 +123,13 @@ body{
 
 
 
-
-
-/*
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-tema-sub-menus: center;
-    padding: 40px 40px;
-}
+/*------ CORPO DA PÁGINA ------*/
 
 main{
     display: flex;
     flex-direction: row;
 }
 
-.menu{
-    list-style: none;
-    border: none;
-    float: left;
-}
-
-.menu li{
-    position: relative;
-    float: left;
-    border-right: none;
-}
-
-.menu li a{
-    color:#C618C0; /*Menu     /
-    font-family: Raleway;
-    font-weight: 900; /*espessura da letra* /
-    text-decoration: none; /*underline, risco em cima, tachado* /
-    padding:10px 20px; /*Distância* /
-    display:block;
-    margin-bottom: 10px; /*Alt da margem*     /
-}
-
-.menu li a:hover{
-    color:#201358; /*Quando passa o mouse*   / 
-    transition: 0.3s all;
-    transform: 2ms ease-in;
-    position: relative; 
-}
-
-.menu li  ul{
-    position:absolute;
-    top: 80%;
-    /*center: 1px;*   /
-    background-color: none;
-    display:none;
-}
-
-.menu li:hover ul, .menu li.over ul{
-    display:block;
-}
-
-.menu li ul li{
-    display: block;
-    width: 60px;
-}
-
-.submenu{
-    list-style: none;
-    border: none;
-    float: left;
-}
-
-/*.submenu li{
-    position: relative;
-    float: left;
-    border-right: none;* /
-
-.submenu li a{
-    color: #1ec90f;
-    font-family: Raleway;
-    font-weight: 900;
-    text-decoration: none;
-    display: inline-block;
-    justify-content: space-between;
-    background-color: #2473b7;
-    flex-direction: row-reverse;
-    align-content: flex-start;
-    align-tema-sub-menus: center;
-    height: inherit;
-}
-
-colorcolor
-.submenu li a:hover{
-    color:#e49d40; /*Quando passa o mouse* /
-    transition: 0.3s all;
-    transform: 2ms ease-in;
-    position: relative; 
-}
-
-.submenu li  ul{
-    position:absolute;
-    top: 80%;
-    /*center: 1px;* /
-    background-color: none;
-    display:none;
-}
-
-.submenu li:hover ul, .menu li.over ul{
-    display:block;
-}
-
-.submenu li ul li{
-    display: block;
-    width: 60px;
-}
-
-li{
-    display: inline-block;
-    margin: 20px;
-}
-
-*/
-
-#titulo{
-    flex-direction: column;
-    line-height: 30px;
-    font-size: 50px;
-    font-family: Poppinsblack;
-    color:#C618C0;
-    margin-top: 20px;
-}
-
-span{
-    font-size: 50px;
-    font-weight: 600;
-    line-height: 55px;
-    color: #260A7B;
-    font-family: SquarePeg;
-}
-
-/*------ CORPO DA PÁGINA ------*/
 h1{
     font-size: 50px;
     line-height: 40px;
