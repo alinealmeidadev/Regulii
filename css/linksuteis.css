@@ -23,7 +23,6 @@ body{
     max-width: 100%;
     margin: 0 0;
     padding: 0 0;
-    
 }
 
 header{
@@ -34,10 +33,6 @@ header{
     padding: 40px 40px;
 }
 
-main{
-    display: flex;
-    flex-direction: row;
-}
 
 .menu{
     list-style: none;
@@ -71,7 +66,7 @@ main{
 .menu li  ul{
     position:absolute;
     top: 80%;
-    center: 1px;
+    /*center: 1px;*/
     background-color: none;
     display:none;
 }
@@ -121,7 +116,7 @@ colorcolor
 .submenu li  ul{
     position:absolute;
     top: 80%;
-    center: 1px;
+    /*center: 1px;*/
     background-color: none;
     display:none;
 }
@@ -157,44 +152,67 @@ span{
     font-family: SquarePeg;
 }
 
-/*------ CORPO DA PÁGINA ------*/
-h1{
-    font-size: 50px;
-    line-height: 40px;
-    font-family: Oswald;
-    color: #C618C0; 
-    margin-top: 50px;
-    margin-left: 60px;
+/*------ CORPO DA PÁGINAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA ------*/
+
+@media(min-width: 668px){
+    .wrapper {
+      display: grid;
+      padding: 25px;
+      grid-template-columns: repeat(10, 1fr);
+      /*grid-template-columns: repeat(auto-fill, 100px); serve para dividir a tela em espaços determinados, no caso divide a tela em espaços de 100px
+      grid-template-columns: repeat(auto-fit, 100px); não divide colunas, apenas cria a quantidade de espaços de acordo com o tamanho determinados (no caso 4 espaços de 100px)*/
+      grid-gap: 5px;
+      grid-auto-rows: 100px;
+  
+      grid-template-areas:
+        "titulo titulo acesso acesso acesso acesso"
+        "acesso acesso acesso acesso"
+        ;
+    }
+  }
+  
+.titulo {
+    grid-area: titulo;
+  }
+
+
+  .acesso{
+    grid-area: acesso;
+  }
+  
+  main {
+    grid-area: main;
+  }
+  
+  aside {
+    grid-area: aside;
+  }
+  
+  footer {
+    grid-area: footer;
+  }
+  
+  .wrapper > * {
+    background-color: #ff6ec7;
+    padding: 1rem;
+  }
+  
+
+  
+  .wrapper > *:nth-child(even) {
+    background-color: #4d4dff;
+  }
+  
+  
+.descricao{
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 1px;
+    color: #260A7B;
+    font-family: SquarePeg;
 }
 
-h2{
-    font-size: 40px;
-    line-height: 40px;
-    font-family: Poppinssemibold;
-    color: #45bad4;
-    margin-top: 50px;
-    margin-left: 60px;
-}
-
-h3{
-    font-size: 22px;
-    font-weight: 600px;
-    max-width: 600px;
-    line-height: 40px;
-    font-family: Poppinsextralight;
-    margin-top: 60px;
-    text-align: justify;
-    margin-left: 60px;
-}
-
-img{
-    width: 550px;
-}
-
-
-
-
-/*FOOTER*/
+/*FOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOTER*/
 
 footer{
     background-color: #260A7B;
