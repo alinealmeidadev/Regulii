@@ -131,44 +131,6 @@ nav > ul > li:hover > a {
   
 /*------ CORPO DA PÁGINA ------*/
 
-main{
-    display: flex;
-    flex-direction: row;
-}
-
-h1{
-    font-size: 50px;
-    line-height: 40px;
-    font-family: Oswald;
-    color: #C618C0; 
-    margin-top: 50px;
-    margin-left: 60px;
-}
-
-h2{
-    font-size: 40px;
-    line-height: 40px;
-    font-family: Poppinssemibold;
-    color: #45bad4;
-    margin-top: 50px;
-    margin-left: 60px;
-}
-
-h3{
-    font-size: 22px;
-    font-weight: 600px;
-    max-width: 600px;
-    line-height: 40px;
-    font-family: Poppinsextralight;
-    margin-top: 60px;
-    text-align: justify;
-    margin-left: 60px;
-}
-
-img{
-    width: 550px;
-}
-
 
 /*FOOTER*/
 
@@ -177,7 +139,7 @@ footer{
     padding-top: 2em;
     border-top: 4px solid #F7E61D;
     position: relative;
-    height: 400px;
+    height: 100%;
     width: 100%;
     margin: 0 0;
 }
