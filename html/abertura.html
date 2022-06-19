@@ -5,66 +5,184 @@
     <meta http-equiv="content-language" content="pt-br">
     <meta name="description" content="Legalização de empresas, asistente de legalização, Junta Comercial, Jucesp, Ltda, VRE, Redesim, Via Rápida EMpresa, CLI" />   
     <meta name="keywords" content="Conteúdo sobre a área de regularização de empresas" />
-    <link href="./css/stylesabertura.css" rel="stylesheet">
-    <title>Contratos e Junta Comercial</title>
-    <link rel="icon" href="./images/Reguliiheader.png">
+    <link href="../css/abertura.css" rel="stylesheet">
+    <link href="../css/fonts.css" rel="stylesheet">
+    <title>Regulii</title>
+    <link rel="icon" href="./images/reguliititle.png">
 </head>
+
+<!-- Head = Cabeçalho, não é aparente para o usuário
+As meta tags description auxilia na busca no Google, para localização do site pelas palavras chave.
+As meta tags keywords é a apresentação do site no google-->
+<!--HEAD OK - não mecher-->
+
 <body>
     <header>
-        <div id="title">
-            <img src="\components\images\reguliilogo" alt="círculo rosa escrito Regulii em amarelo">
-            <h1><br>Regulii</h1>
-            <h2><br>Legalização de empresas</h2>
+        <!--INÍCIO do Título e subtítulo do site-->
+        <div id="titulo"> <!--Título e subtítulo do site-->
+            Regulii<br>
+            <span>Legalização de empresas</span>
         </div>
-       
-        <ul>
-            <a href="\inicio\inicio.html"><li>Início</li></a>  
-            <a href="\abertura\abertura.html"><li>Como abrir empresa</li></a>
-            <a href="\Estado\estado.html"><li>Estado</li></a>
-            <a href="\Prefeitura\prefeitura.html"><li>Prefeitura</li></a>
-            <a href="\Mei\Mei.html" ><li>MEI</li></a>
-            <a href="\outrostopicos\outrostop.html"><li>Outros tópicos</li></a>
-            <a href="\sobre\sobre.html"><li>Sobre</li></a>
-            <a href="\contato\contato.html"><li>Contato</li></a>
-        </ul>
+        <!-- FIM do Título e subtítulo-->
+
+        <!--INÍCIO do menu de navegação-->
+        <nav>
+            <ul class="barra-de-menu">
+                <li><a href="../index.html">Início</a></li>
+                <li class="abre-sub-menu">
+                    <a href="#">Conteúdos <i class="fa fa-angle-down"></i></a>
+                    <div class=itens-sub-menu>
+                        <div class="barra-de-menu">
+                        <div class="tema-sub-menu">
+                            <h3>Passo a Passo</h3>
+                            <ul>
+                                <li><a href="./abertura.html">Abrindo empresa</a></li>                
+                                <li><a href="./estado.html">Estado</a></li>
+                                <li><a href="#">Prefeitura</a></li>           
+                                <li><a href="./mei.html">MEI</a></li>
+                                <li><a href="./outrostop.html">Outros tópicos</a></li>
+                            </ul>
+                        </div>
+                        <div class="tema-sub-menu">
+                            <h3>Prefeituras</h3>
+                            <ul>
+                            <li><a href="#">Prefeitura #1</a></li>
+                            <li><a href="#">Prefeitura #2</a></li>
+                            <li><a href="#">Prefeitura #3</a></li>
+                            <li><a href="#">Prefeitura #4</a></li>
+                            <li><a href="#">Prefeitura #5</a></li>
+                            </ul>
+                        </div>
+                        <div class="tema-sub-menu">
+                            <h3>Modelos</h3>
+                            <ul>
+                            <li><a href="#">Modelo Doc 1 #1</a></li>
+                            <li><a href="#">Modelo Doc 1 #2</a></li>
+                            <li><a href="#">Modelo Doc 1 #3</a></li>
+                            </ul>
+                        </div> 
+                    </div>
+                    </div>
+                </li>
+                <li class="abre-sub-menu">
+                    <a href="#">Links Úteis <i class="fa fa-angle-down"></i> </a>
+                    <div class=itens-sub-menu>
+                        <div class="barra-de-menu">
+                            <div class="tema-sub-menu">
+                                <h3>Receita</h3>
+                                <ul>
+                                    <li><a href="https://servicos.receita.fazenda.gov.br/servicos/cnpjreva/cnpjreva_solicitacao.asp" target="_blank" rel="noopener noreferrer">Consulta CNPJ</a></li>                
+                                    <li><a href="http://www8.receita.fazenda.gov.br/simplesnacional/" target="_blank" rel="noopener noreferrer">Simples Nacional</a></li>
+                                    <li><a href="#">Link 1</a></li>           
+                                    <li><a href="https://www.gov.br/receitafederal/pt-br/servicos/certidoes" target="_blank" rel="noopener noreferrer">Certidões</a></li>
+                                    <li><a href="https://www.gov.br/receitafederal/pt-br/servicos/procuracoes" target="_blank" rel="noopener noreferrer">Procuração E-cac</a></li>
+                                </ul>
+                            </div>
+                            <div class="tema-sub-menu">
+                                <h3>MEI</h3>
+                                <ul>
+                                    <li><a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei/atividades-permitidas" target="_blank" rel="noopener noreferrer">Atividades Permitidas</a></li>                
+                                    <li><a href="https://mei.receita.economia.gov.br/inscricao/login" target="_blank" rel="noopener noreferrer">Abertura</a></li>
+                                    <li><a href="https://mei.receita.economia.gov.br/certificado/consulta" target="_blank" rel="noopener noreferrer">Emissão de CCMEI</a></li>           
+                                    <li><a href="http://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=3" target="_blank" rel="noopener noreferrer">Desenquadramento</a></li>
+                                    <li><a href="http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/Identificacao" target="_blank" rel="noopener noreferrer">DASN - Imposto MEI</a></li>
+                                </ul>
+                            </div>
+                            <div class="tema-sub-menu">
+                                <h3>Jucesp</h3>
+                                <ul>
+                                    <li><a href="https://www.jucesponline.sp.gov.br/" target="_blank" rel="noopener noreferrer">Pesquisa de empresas</a></li>                
+                                    <li><a href="https://vreredesim.sp.gov.br/home" target="_blank" rel="noopener noreferrer">VRE - Abertura, CLI, Inscrição Municipal e Outros</a></li>
+        
+                                    <li><a href="https://www.jucesp.sp.gov.br/IntegradorPaulista/ConsultaPublica" target="_blank" rel="noopener noreferrer">Consulta Pública - CLI</a></li>
+                                    <li><a href="https://www.jucesp.sp.gov.br/vre/Consulta/ConsultaAndamento.aspx" target="_blank" rel="noopener noreferrer">Consulta de Protocolo Presencial</a></li>
+                                    <li><a href="https://www.gov.br/economia/pt-br/assuntos/drei/links-e-downloads" target="_blank" rel="noopener noreferrer">DREI</a></li>
+                                </ul>
+                            </div> 
+                            <div class="tema-sub-menu">
+                                <h3>SEFAZ - SP</h3>
+                                <ul>
+                                    <li><a href="#https://www.cadesp.fazenda.sp.gov.br/(S(vjpth4ieymm3qysgjpp2pjns))/Pages/Cadastro/Consultas/ConsultaPublica/ConsultaPublica.aspx" target="_blank" rel="noopener noreferrer">Consulta CADESP(Inscrição Estadual)</a></li>                
+                                    <li><a href="https://www3.fazenda.sp.gov.br/CAWEB/Account/Login.aspx" target="_blank" rel="noopener noreferrer">Posto Fiscal On-line (Login)</a></li>
+                                    <li><a href="https://www3.fazenda.sp.gov.br/sipet" target="_blank" rel="noopener noreferrer">SIPET (Login)</a></li>           
+                                    <li><a href="https://portal.fazenda.sp.gov.br/servicos/pfe/Paginas/Senha-do-PFE.aspx" target="_blank" rel="noopener noreferrer">Senha Posto Fiscal Eletrônico</a></li>
+                                    <li><a href="https://www.pagamentos.fazenda.sp.gov.br/Pagamentos/WebSite/Extranet/Login.aspx" target="_blank" rel="noopener noreferrer">Emissão de Dare</a></li>
+                                    <li><a href="https://redesimservicos.rfb.gov.br/coletor-evt-especiais/coletor-evt-especiais" target="_blank" rel="noopener noreferrer">Abertura ou Baixa de IE</a></li>
+                                </ul>
+                            </div> 
+                            <div class="tema-sub-menu">
+                                <h3>Prefeituras</h3>
+                                <ul>
+                                    <li><a href="#">Link 5</a></li>                
+                                    <li><a href="#">Link 5</a></li>
+                                    <li><a href="#">Link 5</a></li>           
+                                    <li><a href="#">Link 5</a></li>
+                                    <li><a href="#">Link 5</a></li>
+                                </ul>
+                            </div> 
+                        </div>
+                    </div>
+                </li>
+                <li><a href="./sobre.html">Sobre</a></li>    
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
     </header>
+     
+    <!-- FIM do Menu-->
+
+    <!--INÍCIO do Main-->
 
     <main>
-    <div class="abertura">
-        <h1><br>
-            <br>Você sabe realizar uma abertura de empresa do início ao fim?</h1>
-
-            <div id="chamada">Neste tutorial você aprenderá a realizar uma abertura de empresa Ltda ou EI enquadrada no Simples Nacional do início ao fim!!</div>
-        <p> Esse passo a passo é completo e conta também com vários mecetes desde o primeiro passo para abertura a a finalização do enquadramento até a finalização do enquadramento do Simples Nacional.</p>
-            </div>
-            <div class="text">
-            <div id="tópicos"><b>Antes de começar</b></div>
-        <p>Antes de iniciar os procedimentos para abertura é necessário levantar com os responsáveis pela empresa as informações e documentos que serão utilizados no decorrer do processo, é mega necessário tirar todas as dúvidas nessa fase, assim minimiza a chance de colocar alguma informação errada, e perguntando, confirmando com o cliente você também constrói um histórico de contato que em caso de alguma divergência você tem onde confirmar dados.<br>
-        Para te ajudar a fazer uma pesquisa inicial completa, segue informaçõe importantes a ser consideradas antes de iniciar um processo de abertura de empresa:
+        <div class="ppabertura">
+            <h1>Você sabe realizar uma abertura de empresa do início ao fim?</h1>
             
-        <p><b>Ramo da empresa</b><br>
-        É essencial entender bem quais são as atividades que o empresário pretende desenvolver, pois cada atividade é representada por um CNAE (classificação de atividades econômicas) e os CNAES são códigos fundamentais dentro de uma empresa, pois eles influenciam no Simples Nacional, emissão de nota fiscais por exemplo, então é essencial que a definição de CNAES seja muito bem alinhada com o cliente. Importante também entender como será a forma de atuação da empresa.<br>
-               
-        <p><b>Solicitação de documentos</b><br>
-        Os documentos básicos são uma cópia do RG ou CNH dos sócios, comprovante de residência e IPTU. Durante o processo pode ser necessário outros documentos como contrato de compra e venda ou comprovante de titularidade do imóvel, além de outros como AVCB, planta do imóvel e laudo de segurança e estabilidade.<br>
-        <b>DICA:</b> Na geração dos formulários é necessário informar o local de nascimento do sócio, e a CNH não contém essa informação, então para não ficar com processo parado por causa de informação é legal perguntar antecipadamente para o cliente qual o seu estado e município de nascimento, além do estado civil.
-                    
-        <p><b>Escolha dos CNAES</b><br>
-        Para definição dos CNAES é essencial conversar com o cliente e entender quais são seus objetivos, e a partir disso efetuar uma pesquisa no site do <a href="https://concla.ibge.gov.br/" target="_blank">Concla</a>, e escolher os códigos que mais representam os produtos e/ou serviços que o cliente irá trabalhar.
-                        
-        <p> Atividade permitida no Simples Nacional</div><br>
-        A Receita Federal possui um controle em relação as atividades que são permitidas no Simples Nacional, e sempre que você estiver montando a relação de atividades da empresa é indispensável consultar se a atividade pretendida é liberada para optar pelo regime de tributação Simples Nacional, você pode efetuar a consulta de CNAES permitidos <a href="https://www.cnae-simples.com.br/" target="_blank">neste site.</a>
-                        
-        <p><b>Razão Social</b><br>
-
-
-        <p><b>Consulta prévia</b><br>
-        Algumas prefeituras permite que seja feita via site uma pesquisa de viabilidade informando o IPTU e os cógigos CNAES para verificar se é possível desenvolver determinada atividade no endereço escolhido, mas isso não é regra, depende muito de cada prefeitura, caso não tenha essa possibilidade, sem problemas, pois ao iniciar o processo o primeiro passo é justamente o da viabilidade, que faz justamente essa análise.
-                 
+            <h2>Neste tutorial você aprenderá a realizar uma abertura de empresa Ltda ou EI enquadrada no Simples Nacional do início ao fim!!<h2>
+            <p> Esse passo a passo é completo e conta também com vários macetes desde o primeiro passo até a finalização do enquadramento do Simples Nacional.</p>
             
-        </p>
-        <h3>Viabilidade</h3>
-        <p></p>
-            </div>
-
-        </main>
+            <h3>Antes de começar</h3>
+            <p>Antes de iniciar os procedimentos para abertura é necessário levantar com os responsáveis pela empresa as informações e documentos que serão utilizados no decorrer do processo, é mega necessário tirar todas as dúvidas nessa fase, assim minimiza a chance de colocar alguma informação errada, e perguntando, confirmando com o cliente você também constrói um histórico de contato que em caso de alguma divergência você tem onde confirmar dados.</p>
+            <h5>Para te ajudar a fazer uma pesquisa inicial completa, segue algumas informações importantes a ser consideradas antes de iniciar um processo de abertura de empresa:</h5>
+            <h4>Ramo da empresa</h4>
+            <p>É essencial entender bem quais são as atividades que o empresário pretende desenvolver, pois cada atividade é representada por um CNAE (classificação de atividades econômicas) e os CNAES são códigos fundamentais dentro de uma empresa, pois eles influenciam no Simples Nacional, emissão de nota fiscais, entre outros pontos, então é essencial que a definição de CNAES seja muito bem alinhada com o cliente. Importante também entender como será a forma de atuação da empresa.</p>
+            <h4>Solicitação de documentos</h4>
+            <p>Os documentos básicos para abertura do CNPJ e registro na Junta Comercial são: uma cópia do RG/CNH, comprovante de residência dos sócios e IPTU da empresa.<br>
+            Durante o processo pode ser necessário outros documentos como contrato de compra e venda/locação do imóvel, além de outros como AVCB, planta do imóvel e laudo de segurança e estabilidade.<br>
+            <b>DICA:</b> Na geração dos formulários é necessário informar o local de nascimento do sócio, e a CNH não contém essa informação, então para não ficar com processo parado por causa de informação é legal perguntar antecipadamente para o cliente qual o seu estado e município de nascimento, além do estado civil.
+            <h4>Escolha dos CNAES</h4>
+            Para definição dos CNAES é essencial conversar com o cliente e entender quais são seus objetivos, e a partir disso efetuar uma pesquisa no site do <a href="https://concla.ibge.gov.br/" target="_blank">Concla - IBGE</a>, e escolher os códigos que mais representam os produtos e/ou serviços que o cliente irá trabalhar.
+            <h4> Atividade no Simples Nacional</h4>
+            <p>A Receita Federal possui um controle em relação as atividades que são permitidas no Simples Nacional, e sempre que você estiver montando a relação de atividades da empresa é indispensável consultar se a atividade pretendida é liberada para optar pelo regime de tributação Simples Nacional, você pode efetuar a consulta de CNAES permitidos no Simples Nacional, vou deixar o <a href="https://www.contabeis.com.br/ferramentas/simples-nacional/" target="_blank">Portal Contábeis</a> como indicação, para efetuar essa consulta, eles possuem uma ferramenta bem bacana e completa.</p>
+            
+            <h4>Razão Social</h4>
+            
+            <p>Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a para fazer um livro de espécimes de tipos.</p>
+            
+            <h4>Consulta prévia – Viabilidade</h4>
+            <p>Algumas prefeituras permite que seja feita via site uma pesquisa de viabilidade informando o IPTU e os cógigos CNAES para verificar se é possível desenvolver determinada atividade no endereço escolhido, mas isso não é regra, depende muito de cada prefeitura, caso não tenha essa possibilidade, sem problemas, pois ao iniciar o processo o primeiro passo é justamente o da viabilidade, que faz justamente essa análise.
+            </p>
+            <h4>DBE – Receita Federal</h4>
+            <p>Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a para fazer um livro de espécimes de tipo</p>
+            
+            <h4>Jucesp – Parte 1 – Preenchimento de Informações</h4>
+            <p>Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a para fazer um livro de espécimes de tipos.</p>
+            <h4>Jucesp – Parte 2 – Taxa e Envio de Documentos</h4>
+            <p>Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a para fazer um livro de espécimes de tipos.</p>
+            <h4>Jucesp – Parte 3 – Análise e Deferimento</h4>
+            <p>Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a para fazer um livro de espécimes de tipos.</p>
+            <h4>Jucesp – Parte 4 – Documentos Emitidos</h4>
+            <p>Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a para fazer um livro de espécimes de tipos.</p>
+            
+            <h4>Prefeitura</h4>
+            <p>Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a para fazer um livro de espécimes de tipos.</p>
+            
+            <h4>Simples Nacional – Parte 1</h4>
+            <p>Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a para fazer um livro de espécimes de tipos.</p>
+            
+            <h4>Simples Nacional – Parte 2</h4>
+            <p>Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a para fazer um livro de espécimes de tipos.</p>
+            <h4>Simples Nacional – Parte 3</h4>
+            <p>Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a para fazer um livro de espécimes de tipos.</p>
+            
+    </main>
+    

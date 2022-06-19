@@ -136,7 +136,7 @@ nav > ul > li:hover > a {
     display: flex;
     align-items: center;
     text-align: justify;
-    max-width:600px;
+    width:600px;
     flex-direction:column;
     margin-left: auto;
     margin-right: auto;
@@ -193,6 +193,9 @@ nav > ul > li:hover > a {
     margin-bottom: 100px;
     padding-left: 200px;
 }
+
+
+
 /*FOOTER*/
 
 footer{
